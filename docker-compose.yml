@@ -9,3 +9,8 @@ services:
     volumes:
       - ./lb/src:/var/www/html
       - ./lb/ssl:/etc/nginx/ssl
+
+  app1:
+    build: ./app
+    volumes:
+      - ./app:/app
