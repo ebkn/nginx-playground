@@ -18,3 +18,7 @@ services:
     build: ./app
     volumes:
       - ./app:/app
+  app3:
+    build: ./app
+    volumes:
+      - ./app:/app
