@@ -1,6 +1,6 @@
 .PHONY: start
 start:
-	docker-compose up --build
+	docker-compose up --build -d
 
 .PHONY: restart
 restart:
